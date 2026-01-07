@@ -95,8 +95,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gcvlsebfmjedjqbbulmy',
+        'USER': 'upwxzywvucvrwmrciqvo',
+        'PASSWORD': 'tastluqsptgpvvvzqrhncaqjksmkvp',
+        'HOST': '9qasp5v56q8ckkf5dc.leapcellpool.com',
+        'PORT': '6438',
+        'OPTIONS': {'sslmode': 'require'}
     }
 }
 
